@@ -13,7 +13,6 @@
     src: url(./fonts/Gilroy-Semibold.woff2);
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -45,11 +44,23 @@ button {
     margin-bottom: 89px;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navigation a {
 
     color: #000;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .headerSelect {
@@ -64,11 +75,17 @@ button {
     margin-bottom: 162px;
 }
 
+.mainContent {
+    display: flex;
+    gap: 41px;
+}
+
 .mainContent__leftSide h1 {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
     margin-bottom: 17px;
+    max-width: 522px;
 }
 
 .mainContent__leftSide h2 {
@@ -77,8 +94,8 @@ button {
     font-family: Gilroy-Medium;
     font-size: 20px;
     margin-bottom: 37px;
+    max-width: 466px;
 }
-
 
 .mainContent_leftButton {
     padding: 15px 35px;
@@ -100,11 +117,19 @@ button {
     font-family: Gilroy-Bold;
     font-size: 15px;
     border: none;
+    cursor: pointer;
 }
 
+.btn {
+    display: flex;
+    gap: 72px
+}
 
 .footer {
     padding: 100px;
 }
 
-.logos {}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
